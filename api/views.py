@@ -7,7 +7,6 @@ from rest_framework.response import Response
 from .serializers import TaskSerializer
 from .models import Task
 
-# Create your views here.
 
 """
 API Overview
@@ -23,7 +22,9 @@ def apiOverview(request):
     }
     return Response(api_urls)
 """
-Below Function going to display all the tasks store in the data base.
+
+The function below will show the entire task repository in the database.
+
 """
 @api_view(['GET'])
 def taskList(request):
@@ -32,7 +33,8 @@ def taskList(request):
     return Response(serializer.data)
 
 """
-This Function going to display Detailed view of one perticuler task with the help of pk.
+This function will show the Detailed view of a specific task with the help of pk.
+
 """
 @api_view(['GET'])
 def taskDetail(request, pk):
