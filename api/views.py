@@ -9,7 +9,9 @@ from .models import Task
 
 
 """
+
 API Overview
+
 """
 @api_view(['GET'])
 def apiOverview(request):
@@ -23,7 +25,7 @@ def apiOverview(request):
     return Response(api_urls)
 """
 
-The function below will show the entire task repository in the database.
+This function below will show the entire task repository in the database.
 
 """
 @api_view(['GET'])
@@ -33,7 +35,8 @@ def taskList(request):
     return Response(serializer.data)
 
 """
-This function will show the Detailed view of a specific task with the help of pk.
+
+This function will show the detailed view of a specific task with the help of pk.
 
 """
 @api_view(['GET'])
