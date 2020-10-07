@@ -1,4 +1,4 @@
-# TODO list API for Artistanbul
+# To-Do List Application for Artistanbul
 
 ### created with django rest framework 
 
