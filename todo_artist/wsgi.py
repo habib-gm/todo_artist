@@ -1,5 +1,5 @@
 """
-WSGI config for todo_drf project.
+WSGI config for todo_artist project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
