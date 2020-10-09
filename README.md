@@ -21,6 +21,8 @@ It is a To-Do Application developed with Django Rest Framework. Developed in Lin
 
 ## Install the project dependencies
 
+First create virtualenv, then enter the following command.
+
 `pip install -r requirements.txt`
 
 ## Run the command to generate the database
