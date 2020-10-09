@@ -26,6 +26,7 @@ First create virtualenv, then enter the following command.
 `pip install -r requirements.txt`
 
 ## Run the command to generate the database
+`python manage.py makemigrations`
 `python manage.py migrate`
 
 ## Generate super user
