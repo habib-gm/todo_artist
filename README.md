@@ -11,6 +11,7 @@ It is a To-Do Application developed with Django Rest Framework. Developed in Lin
 
 * `GET /api/task-list/`
 * `GET /api/task-detail/{pk}`
+* `POST /api/task-create/`
 * `POST /api/task-update/{pk}`
 * `DELETE /api/task-delete/{pk}`
 
