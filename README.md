@@ -4,7 +4,7 @@
 
 # Description
 
-It is a To-Do Application developed with Django Rest Framework.
+It is a To-Do Application developed with Django Rest Framework. Developed in Linux environment and postgresql database is used.
 
 
 ## End Points
